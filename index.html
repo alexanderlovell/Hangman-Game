@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+  <meta charset="UTF-8">
+  <title>Hangman</title>
+  
+    <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+  
+    <!-- Latest compiled and minified CSS -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+      <script type="text/javascript" src="assets/javascript/game.js"></script>
+      <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+
+</head>
+
+<body>
+  <div class="wrapper">
+    <h1>Hangman</h1>
+     <h2>One (Hopefully) Amazing Game of Hangman!</h2>
+     <p>Try to guess the word</p>
+ </div>
+ <div class="wrapper">
+     <div id="buttons">
+     </div>  
+     <p id="categoryName"></p>
+     <div id="hold">
+     </div>
+     <p id="mylives"></p>
+     <p id="clue">Clue for you -</p>  
+      <canvas id="stickman"></canvas>
+     <div class="container">
+       <button id="hint">Want a hint?</button>
+       <button id="reset">Play again</button>
+     </div>
+ </div>
+</body>
