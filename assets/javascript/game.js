@@ -155,7 +155,7 @@ leftLeg = function() {
 drawArray = [rightLeg, leftLeg, rightArm, leftArm,  torso,  head, frame4, frame3, frame2, frame1]; 
 
 
-// OnClick Function
+// onclick
 check = function () {
 list.onclick = function () {
     var guess = (this.innerHTML);
@@ -209,9 +209,9 @@ play();
 hint.onclick = function() {
 
     hints = [
-    ["First Bond", "Second Bond", "Best Bond"], // Bond actors
-    [], // Bond villains
-    [] // Bond girls
+    ["First Bond", "Second Bond", "Third Bond", "Best Bond", "roger moore", "timothy dalton", "pierce brosnan", "daniel craig"], // bond actors
+    ["ernst stavro blofeld", "goldfinger", "oddjob", "rosa klebb", "red Grant", "jaws"], // bond villains
+    ["honey ryder", "tatiana romanova", "jill masterson", "teresa di vicenzo", "vesper lynd"] // bond girls
 ];
 
 var categoryIndex = categories.indexOf(chosenCategory);

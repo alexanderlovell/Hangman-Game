@@ -2,6 +2,7 @@
 
 body {
   background: white;
+  background-image: url("https://www.gannett-cdn.com/-mm-/329b5d71fe2f5b8d56bed0f237f1fb9555813558/r=x803&c=1600x800/https/media.gannett-cdn.com/29906170001/29906170001_5521091525001_5521086157001-vs.jpg?pubId=29906170001");
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
   color:$white;
   height:100%;
@@ -10,7 +11,7 @@ body {
 }
 
 .wrapper{
-  clear;
+  clear: both;
   width:100%;
   margin:0 auto;
 }
@@ -30,22 +31,30 @@ h1, h2, h3 {
 }
 
 h1 {
-	font-size: 2.6em;
+  font-size: 2.6em;
+  color: lightgrey;
 }
 
 h2 {
-	font-size: 1.6em;
+  font-size: 1.6em;
+  color: lightgrey;
 }
 
 p{
   font-size: 1.6em;
+  font-weight: strong;
+  color: red;
 }
 
 #alphabet {
-  clear;
+  clear: both;
   margin:15px auto;
-  padding:0;
-  max-width:900px;
+  padding:10px;
+  max-width:600px;
+}
+
+#categoryName {
+  clear: both;
 }
 
 #alphabet li {
@@ -54,11 +63,11 @@ p{
   list-style:none;
   width:35px;
   height:30px;
-  padding-top:10px;
-  background:$white;
-  color:$base-color;
+  padding:10px;
+  background:white;
+  color:red;
   cursor:pointer;
-  border: solid 1px $white;
+  border: solid 1px grey;
     
 }
 
@@ -76,6 +85,7 @@ p{
   display: inline-block;
   padding: 0 10px;
   font-size:1.6em;
+  color: red;
 }
 
 .active {
@@ -91,7 +101,7 @@ p{
 
 button{
   background: lightgrey;
-  color:$white;
+  color: white;
   border: solid 1px white;
   text-decoration:none;
   cursor:pointer;
